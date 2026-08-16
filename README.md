@@ -36,7 +36,7 @@ build
 pyinstaller --onefile --add-data "ascii:ascii" sekaifetch.py'
 ```
 
-binary is stored in 'dist/sekaifetch'
+binary is stored in 'dist'
 
 ### windows
 
