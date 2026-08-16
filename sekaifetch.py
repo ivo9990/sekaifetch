@@ -99,7 +99,7 @@ def fetch_and_parse():
         page_id = list(pages.keys())[0]
 
         if page_id == "-1":
-            print(f"Error: The page '{page_title.replace('_', ' ')}' could not be found.")
+            print(f"error: page '{page_title.replace('_', ' ')}' could not be found.")
             return
 
         raw_wiki_content = pages[page_id]["revisions"][0]["slots"]["main"]["*"]
@@ -190,10 +190,10 @@ def fetch_and_parse():
             print("")
 
         else:
-            print("Could not find the 'CharacterTemplate' layout block on wiki page.")
+            print("could not find the 'CharacterTemplate' layout block on wiki page.")
 
     except Exception as e:
-        print(f"An error occurred while fetching data: {e}")
+        print(f"oops: {e}")
 
 if __name__ == "__main__":
     fetch_and_parse()
