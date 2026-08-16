@@ -45,3 +45,8 @@ to do
 ### macOS
 
 🤔
+
+## usage
+
+sekaifetch <name>
+(ex. sekaifetch kanade)
