@@ -1,7 +1,7 @@
 # sekaifetch
 neofetch-like tool but for pjsk characters.<br>
 
-![stub](link)
+![stub](screenie.png)
 
 inspired by [willowispill's vtubfetch](https://github.com/willowispll/vtubfetch)
 
